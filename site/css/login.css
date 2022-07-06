@@ -1,0 +1,9 @@
+.error{
+    background-color: red;
+    border: double;
+}
+
+.login_label{
+    font-size: 30px;
+    padding-bottom: 200px;
+}

@@ -1,0 +1,1 @@
+npx babel --presets react SecurityHelper.js --out-dir ..\js

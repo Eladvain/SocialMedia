@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>MTABOOK - HomePage</title>
+	<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+	<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    
+	<link rel="stylesheet" type="text/css" href="./css/navBar.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/userItem.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/TopBar.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/homePage.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/postsList.css"/>
+
+
+	<script src="./js/HomePage.js"></script>
+	<script src="./js/messages.js"></script>
+    <script src="./js/NavBar.js"></script>
+    <script src="./js/UserList.js"></script>
+    <script src="./js/ApproveButton.js"></script>
+	<script src="./js/UserItem.js"></script>
+	<script src="./js/TopBar.js"></script>
+	<script src="./js/PostsList.js"></script>
+	<script src="./js/Post.js"></script>
+	<script src="./js/CreatePost.js"></script>
+	<script src="./js/MessageIndication.js"></script>
+	<script src="./js/SecurityHelper.js"></script>
+
+</head>
+
+<body>
+	<div id='login-container'></id>
+</body>
+
+<script>
+const domContainer = document.querySelector('#login-container');
+ReactDOM.render( React.createElement(HomePage, null ), domContainer);
+</script>
+
+
+</html>

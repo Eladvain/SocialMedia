@@ -1,0 +1,30 @@
+
+
+.navBar{
+    flex: 2;
+}
+
+.messageList{
+    flex:6;
+
+    
+}
+
+.container{
+    background-color: bisque;
+
+}
+
+.verticalContainer{
+    display: flex;
+    align-items: center;
+}
+
+.nav_bar_messages_page{
+    visibility: hidden;
+}
+
+.messages_list_label{
+    font-size: 30px;
+}
+

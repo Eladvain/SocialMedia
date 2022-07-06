@@ -1,0 +1,1 @@
+npx babel --presets react ApproveButton.js --out-dir ..\js 

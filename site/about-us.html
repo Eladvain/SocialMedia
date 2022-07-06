@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>MTABOOK - About Us</title>
+	<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+	<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+	<link rel="stylesheet" type="text/css" href="./css/TopBar.css" />
+	<link rel="stylesheet" type="text/css" href="./css/about.css" />
+	<script src="./js/TopBar.js"></script>
+	<script src="./js/About.js"></script>
+	<script src="./js/NavBar.js"></script>
+</head>
+
+<body>
+	<div id='about-container'>
+		</id>
+</body>
+
+<script>
+	const domContainer = document.querySelector('#about-container');
+	ReactDOM.render(React.createElement(About, null), domContainer);
+</script>
+
+
+</html>

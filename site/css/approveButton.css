@@ -1,0 +1,26 @@
+.button{
+  
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 10px;
+    line-height: 1;
+    border-radius: 100px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid black transparent;
+    letter-spacing: 2px;
+    min-width: 50px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 50px;
+    text-align: center;
+    padding: 8px 7px 9px;
+    color: #fff;
+    background-color: #881515;
+    height: 30px;
+    width: 100px;
+  }
+  .button:hover{
+    background-color: #1db954;
+  }

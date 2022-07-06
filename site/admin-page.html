@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>MTABOOK - Admin Page</title>
+	<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+	<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    
+
+  <link rel="stylesheet" type="text/css" href="./css/TopBar.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/navBar.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/homePage.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/adminPage.css" />
+	<link rel="stylesheet" type="text/css" href="./css/usersList.css" />
+	<link rel="stylesheet" type="text/css" href="./css/userItem.css" />
+	<link rel="stylesheet" type="text/css" href="./css/approveButton.css" />
+
+	<!-- <link rel="stylesheet" type="text/css" href="./css/navBar.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/userItem.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/TopBar.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/homePage.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/postsList.css"/> -->
+
+<script src="./js/AdminPage.js"></script>
+<script src="./js/TopBar.js"></script>
+<script src="./js/NavBar.js"></script>
+<script src="./js/ApproveRequests.js"></script>
+<script src="./js/UserList.js"></script>
+<script src="./js/UserItem.js"></script>
+<script src="./js/ApproveButton.js"></script>
+<script src="./js/messageToAllUsers.js"></script>
+<script src="./js/ActivateUsers.js"></script>
+<script src="./js/DeleteOrSuspendUsers.js"></script>
+<script src="./js/SecurityHelper.js"></script>
+	<!-- <script src="./js/HomePage.js"></script>
+    <script src="./js/NavBar.js"></script>
+    <script src="./js/UserList.js"></script>
+	<script src="./js/UserItem.js"></script>
+	<script src="./js/TopBar.js"></script>
+	<script src="./js/PostsList.js"></script>
+	<script src="./js/Post.js"></script>
+	<script src="./js/CreatePost.js"></script>
+	<script src="./js/MessageIndication.js"></script> -->
+</head>
+
+<body>
+	<div id='admin-container'></id>
+</body>
+
+<script>
+const domContainer = document.querySelector('#admin-container');
+ReactDOM.render( React.createElement(AdminPage, null ), domContainer);
+</script>
+
+
+</html>

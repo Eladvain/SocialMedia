@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+}
+
+
+.userList{
+    flex: 1;
+   text-align: center;
+   overflow-y: auto;
+   overflow-y: scroll;
+}
+
+.postsList{
+    flex: 6;
+    background-color: burlywood;
+}
+
+.nav_bar_home_page{
+    visibility: hidden;
+}
+
+.single-post{
+    margin-top:20px ;
+}
+
+
+.send_poster_laber{
+    font-weight: bold;
+
+}
+
+
+.new_message_button{
+    border-radius: 155px;
+    
+}
+
+.postList_indicator:hover{
+    background-color: green;
+}
+
+.postList_indicator{
+    border-radius: 155px;
+}

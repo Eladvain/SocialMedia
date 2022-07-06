@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    align-items: center;
+  
+}
+
+
+.userList{
+    flex: 4;
+   text-align: center;
+}
+
+.navBar{
+    flex: 2;
+}
+
+.readme_text{
+    flex: 3;
+    text-align: left;
+
+}
+
+.nav_bar_about_page{
+    visibility: hidden;
+    background-color: black;
+    padding-left: 50px;
+}
+
+.about_us_background{
+   
+    background-color:bisque;;
+}

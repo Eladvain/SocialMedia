@@ -1,0 +1,33 @@
+
+.container{
+    display: flex;
+    border: 1px solid black;
+  }
+  
+  
+  .activateUsers{
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+    background-color: burlywood;
+    width: 25%;
+  }
+  
+  .approveRequests{
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+    background-color: burlywood;
+  }
+  .suspendOrDeleteUsers{
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+    background-color: burlywood;
+  }
+  .messageToAllUsers{
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+    background-color: burlywood;
+  }
+  
+  .navbar{
+    visibility: hidden;
+  }

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>MTABOOK - Messages</title>
+	<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+	<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+	<link rel="stylesheet" type="text/css" href="./css/TopBar.css" />
+	<link rel="stylesheet" type="text/css" href="./css/MessageItem.css" />
+	<link rel="stylesheet" type="text/css" href="./css/messages-page.css" />
+	<script src="./js/messages.js"></script>
+	<script src="./js/MessagesList.js"></script>
+	<script src="./js/MessageItem.js"></script>
+	<script src="./js/UserList.js"></script>
+	<script src="./js/TopBar.js"></script>
+	<script src="./js/NavBar.js"></script>
+	<script src="./js/SendMessage.js"></script>
+	<script src="./js/MessageIndication.js"></script>
+
+
+</head>
+
+<body>
+	<div id='messages-container'></id>
+</body>
+
+<script>
+const domContainer = document.querySelector('#messages-container');
+ReactDOM.render( React.createElement(Messages, null ), domContainer);
+</script>
+
+
+</html>
